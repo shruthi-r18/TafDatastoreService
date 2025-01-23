@@ -10,5 +10,6 @@ COPY build/libs/datastore.jar app.jar
 # Expose the port your application runs on (optional but recommended)
 EXPOSE 8080
 
+
 # Set the command to run the JAR file
 ENTRYPOINT ["java", "-jar", "app.jar"]
